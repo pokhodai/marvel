@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">marvel</string>
+
+    <string name="characters_title">Characters</string>
+    <string name="profile_title">Profile</string>
+    <string name="favorites_title">Favorites</string>
+</resources>

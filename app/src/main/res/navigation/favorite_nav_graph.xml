@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favorite_nav_graph"
+    app:startDestination="@id/favoritesListFragment">
+
+    <fragment
+        android:id="@+id/favoritesListFragment"
+        android:name="com.pokhodai.marvel.ui.favorite.FavoritesListFragment"
+        android:label="FavoritesListFragment"
+        tools:layout="@layout/fragment_list_favorites" />
+
+</navigation>
